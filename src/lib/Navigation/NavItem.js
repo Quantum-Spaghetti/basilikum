@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import defaultTheme from '../defaultTheme';
 import {Link as A} from 'react-router-dom';
-import React from 'react';
 
 const Li = styled.li`
   padding: 8px 0;

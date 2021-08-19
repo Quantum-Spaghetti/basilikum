@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import defaultTheme from '../defaultTheme';
-import React from 'react';
 
 const Nav = styled.nav`
   display: flex;
