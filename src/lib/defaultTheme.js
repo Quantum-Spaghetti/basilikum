@@ -7,6 +7,14 @@ const theme = {
       quaternary: '#FFCAD4',
     },
     font: "'Roboto', sans-serif",
+    baseSize: '16px',
+    sizes: {
+      xs: '1.0rem',
+      sm: '1.2rem',
+      md: '1.6rem',
+      lg: '1.8rem',
+      xl: '2.0rem'
+    }
   }
 }
 
