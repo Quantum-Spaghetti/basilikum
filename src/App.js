@@ -1,11 +1,14 @@
-
-import {NavBar, NavItem} from './lib';
+import {NavBar, NavItem, GlobalStyle} from './lib';
 import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
     <Router>
-        <NavBar><NavItem to={'/'}>Home</NavItem></NavBar>
+      <GlobalStyle />
+        <NavBar>
+          <NavItem to={'/'}>Home</NavItem>
+          <NavItem to={'/blog'}>Blog</NavItem>
+        </NavBar>
     </Router>
   );
 }
