@@ -1,6 +1,6 @@
 {
   "name": "basilikum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "QuarkMuncher",
   "keywords": ["react", "components", "ui"],
   "repository": {
@@ -8,8 +8,6 @@
     "url": "git+https://github.com/QuarkMuncher/basilikum.git"
   },
   "private": false,
-  "main": "dist",
-  "module": "dist",
   "exports": {
     "Components": "./lib/Components.js",
     "Layout": "./lib./Layout.js",
