@@ -1,6 +1,6 @@
 {
   "name": "basilikum",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "QuarkMuncher",
   "keywords": ["react", "components", "ui"],
   "repository": {
@@ -9,11 +9,11 @@
   },
   "private": false,
   "exports": {
-    "Components": "./lib/Components.js",
-    "Layout": "./lib./Layout.js",
-    "Navigation": "./lib/Navigation.js",
-    "Typography": "./lib/Typography.js",
-    "Utils": "./lib/Utils.js"
+    "Components": "./dist/Components.js",
+    "Layout": "./dist./Layout.js",
+    "Navigation": "./dist/Navigation.js",
+    "Typography": "./dist/Typography.js",
+    "Utils": "./dist/Utils.js"
   },
   "files": ["dist", "README.md"],
   "dependencies": {
