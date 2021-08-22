@@ -1,6 +1,6 @@
 {
   "name": "basilikum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "QuarkMuncher",
   "keywords": ["react", "components", "ui"],
   "repository": {
@@ -8,8 +8,8 @@
     "url": "git+https://github.com/QuarkMuncher/basilikum.git"
   },
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist",
+  "module": "dist",
   "files": ["dist", "README.md"],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
