@@ -1,6 +1,6 @@
 {
   "name": "basilikum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "QuarkMuncher",
   "keywords": ["react", "components", "ui"],
   "repository": {
@@ -10,6 +10,13 @@
   "private": false,
   "main": "dist",
   "module": "dist",
+  "exports": {
+    "Components": "./lib/Components.js",
+    "Layout": "./lib./Layout.js",
+    "Navigation": "./lib/Navigation.js",
+    "Typography": "./lib/Typography.js",
+    "Utils": "./lib/Utils.js"
+  },
   "files": ["dist", "README.md"],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
