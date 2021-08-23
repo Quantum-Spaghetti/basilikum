@@ -6,6 +6,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: center;
   background-color: ${props => props.theme.colors.primary};
+  width: 100%;
 `;
 
 Nav.defaultProps = defaultTheme;
