@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import defaultTheme from "../defaultTheme";
+import React from 'react';
 
 const StyledButton = styled.button`
   border-radius: 0;
@@ -14,9 +15,9 @@ const StyledButton = styled.button`
 StyledButton.defaultProps = defaultTheme;
 
 export default function Button({
-  onClick,
-  text
-}) {
+                                 onClick,
+                                 text
+                               }) {
   return (
     <StyledButton onClick={onClick}>{text}</StyledButton>
   );

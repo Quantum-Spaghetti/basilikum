@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import defaultTheme from "../defaultTheme";
+import React from 'react';
 
 const Display = styled.h1`
   font-family: ${props => props.theme.font};

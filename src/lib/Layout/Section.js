@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import React from 'react';
 
 const StyledSection = styled.section`
   display: flex;
@@ -9,11 +10,11 @@ const StyledSection = styled.section`
 `;
 
 const Section = ({
-  direction= 'column',
-  justify = 'flex-start',
-  align = 'center',
-  children,
-}) => {
+                   direction = 'column',
+                   justify = 'flex-start',
+                   align = 'center',
+                   children,
+                 }) => {
   return (
     <StyledSection
       direction={direction}
