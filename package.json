@@ -1,6 +1,6 @@
 {
   "name": "basilikum",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "QuarkMuncher",
   "keywords": ["react", "components", "ui"],
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/QuarkMuncher/basilikum.git"
   },
   "private": false,
+  "main": "dis/index.js",
   "module": "dist/index.js",
   "files": ["dist", "README.md"],
   "dependencies": {

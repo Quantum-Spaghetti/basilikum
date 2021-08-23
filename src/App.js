@@ -1,8 +1,12 @@
-import {GlobalStyle} from './lib/Utils';
-import {NavBar, NavItem} from './lib/Navigation';
-import {Card, Button} from './lib/Components';
-import {Section} from './lib/Layout';
-import {Display1} from './lib/Typography';
+import {
+  NavBar,
+  NavItem,
+  Section,
+  Card,
+  Display1,
+  Button,
+  GlobalStyle,
+} from './lib';
 import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
