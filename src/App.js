@@ -1,29 +1,26 @@
-import {
-  NavBar,
-  NavItem,
-  Section,
-  Card,
-  Display1,
-  Button,
-  GlobalStyle,
-} from './lib';
+import {GlobalStyle, Grid, NavBar, NavItem,} from './lib';
 import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <GlobalStyle />
+      <GlobalStyle/>
       <NavBar>
         <NavItem to={'/'}>Home</NavItem>
         <NavItem to={'/blog'}>Blog</NavItem>
       </NavBar>
 
-      <Section>
-        <Card>
-          <Display1>Hello World!</Display1>
-          <Button text={'Click Me!'}/>
-        </Card>
-      </Section>
+      <Grid gap={'16px'}>
+        <div style={{background: 'red', width: '100%', height: '100%'}}></div>
+        <div
+          style={{background: 'yellow', width: '100%', height: '100%'}}></div>
+        <div style={{background: 'green', width: '100%', height: '100%'}}></div>
+        <div style={{background: 'red', width: '100%', height: '100%'}}></div>
+        <div
+          style={{background: 'yellow', width: '100%', height: '100%'}}></div>
+        <div style={{background: 'green', width: '100%', height: '100%'}}></div>
+      </Grid>
+
     </Router>
   );
 }
