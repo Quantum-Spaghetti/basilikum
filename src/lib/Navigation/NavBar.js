@@ -22,9 +22,9 @@ const Ul = styled.ul`
   max-width: 900px;
 `;
 
-const NavBar = ({children}) => {
+const NavBar = ({className, children}) => {
   return (
-    <Nav>
+    <Nav className={className}>
       <Ul>
         {children}
       </Ul>

@@ -22,9 +22,9 @@ const Link = styled(A)`
 
 Link.defaultProps = defaultTheme;
 
-const NavItem = ({to, children}) => {
+const NavItem = ({className, to, children}) => {
   return (
-    <Li>
+    <Li className={className}>
       <Link to={to}>{children}</Link>
     </Li>
   );

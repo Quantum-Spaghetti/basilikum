@@ -10,8 +10,8 @@ const Display = styled.h1`
 
 Display.defaultProps = defaultTheme;
 
-export default function Display1({children}) {
+export default function Display1({className, children}) {
   return (
-    <Display>{children}</Display>
+    <Display className={className}>{children}</Display>
   );
 }

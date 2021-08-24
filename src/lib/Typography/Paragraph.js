@@ -8,8 +8,8 @@ const P = styled.p`
 
 P.defaultProps = defaultTheme;
 
-export default function Paragraph({children}) {
+export default function Paragraph({className, children}) {
   return (
-    <P>{children}</P>
+    <P className={className}>{children}</P>
   )
 }

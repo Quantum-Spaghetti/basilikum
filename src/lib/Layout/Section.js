@@ -10,6 +10,7 @@ const StyledSection = styled.section`
 `;
 
 const Section = ({
+                   className,
                    direction = 'column',
                    justify = 'flex-start',
                    align = 'center',
@@ -17,6 +18,7 @@ const Section = ({
                  }) => {
   return (
     <StyledSection
+      className={className}
       direction={direction}
       justify={justify}
       align={align}

@@ -15,10 +15,11 @@ const StyledButton = styled.button`
 StyledButton.defaultProps = defaultTheme;
 
 export default function Button({
+                                 className,
                                  onClick,
                                  text
                                }) {
   return (
-    <StyledButton onClick={onClick}>{text}</StyledButton>
+    <StyledButton className={className} onClick={onClick}>{text}</StyledButton>
   );
 }

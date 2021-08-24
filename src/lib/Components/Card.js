@@ -14,9 +14,9 @@ const Article = styled.article`
 
 Article.defaultProps = defaultTheme;
 
-export default function Card({children}) {
+export default function Card({className, children}) {
   return (
-    <Article>
+    <Article className={className}>
       {children}
     </Article>
   );

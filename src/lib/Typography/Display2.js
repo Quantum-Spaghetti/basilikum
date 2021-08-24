@@ -9,8 +9,8 @@ const Display = styled.h2`
 
 Display.defaultProps = defaultTheme;
 
-export default function Display2({children}) {
+export default function Display2({className, children}) {
   return (
-    <Display>{children}</Display>
+    <Display className={className}>{children}</Display>
   )
 }
