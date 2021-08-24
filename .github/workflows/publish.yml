@@ -1,5 +1,7 @@
 name: publish-to-npm
-on: [push]
+on:
+  release:
+    types: [ published ]
 jobs:
   build-package:
     runs-on: ubuntu-latest
