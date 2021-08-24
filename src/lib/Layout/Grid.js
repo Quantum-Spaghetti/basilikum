@@ -10,6 +10,7 @@ const Section = styled.section`
 `;
 
 export default function Grid({
+                               className,
                                children,
                                columns = '3',
                                dimensions = {
@@ -19,7 +20,7 @@ export default function Grid({
                                gap
                              }) {
   return (
-    <Section dimensions={dimensions} columns={columns}
+    <Section className={className} dimensions={dimensions} columns={columns}
              gap={gap}>{children}</Section>
   );
 }
