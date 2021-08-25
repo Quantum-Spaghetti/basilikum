@@ -16,6 +16,8 @@ const Ul = styled.ul`
   justify-content: flex-start;
   gap: 32px;
 
+  padding: 0;
+
   list-style: none;
 
   width: 100%;
