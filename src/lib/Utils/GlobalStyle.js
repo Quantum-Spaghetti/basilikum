@@ -8,11 +8,20 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    height: 100%;
+  }
+
   body {
     font-size: ${props => props.theme.baseSize};
     font-family: ${props => props.theme.font};
     margin: 0;
     padding: 0;
+    height: 100%;
+  }
+
+  #root {
+    height: 100%;
   }
 `;
 

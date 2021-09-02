@@ -1,6 +1,7 @@
 import Button from './Components/Button';
 import Card from './Components/Card';
 import Section from './Layout/Section';
+import Overlay from "./Layout/Overlay";
 import Grid from './Layout/Grid';
 import NavBar from "./Navigation/NavBar";
 import NavItem from './Navigation/NavItem';
@@ -15,6 +16,7 @@ export {
   Button,
   Card,
   Section,
+  Overlay,
   Grid,
   NavBar,
   NavItem,
