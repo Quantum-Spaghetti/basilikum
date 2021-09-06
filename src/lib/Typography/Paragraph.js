@@ -4,6 +4,7 @@ import React from 'react';
 
 const P = styled.p`
   font-size: ${props => props.theme.sizes.sm};
+  margin: 0;
 `;
 
 P.defaultProps = defaultTheme;
