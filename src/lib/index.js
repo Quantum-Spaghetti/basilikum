@@ -11,9 +11,11 @@ import Display3 from "./Typography/Display2";
 import Display4 from "./Typography/Display2";
 import Paragraph from "./Typography/Paragraph";
 import GlobalStyle from "./Utils/GlobalStyle";
+import LinkButton from "./Components/LinkButton";
 
 export {
   Button,
+  LinkButton,
   Card,
   Section,
   Overlay,
