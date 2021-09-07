@@ -4,7 +4,7 @@ const theme = {
       primary: '#15F4EE',
       secondary: '#4A412A',
       tertiary: '#B5AF14',
-      quaternary: '#FFCAD4',
+      quaternary: '#e7d7e0',
     },
     font: "'Roboto', sans-serif",
     baseSize: '16px',
