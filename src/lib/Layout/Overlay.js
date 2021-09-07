@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import React from 'react';
 
 const Container = styled.div`
-  /*Turn into flex*/
   display: flex;
   align-items: ${props => props.align};
   justify-content: ${props => props.justify};
