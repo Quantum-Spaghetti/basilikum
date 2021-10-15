@@ -1,5 +1,5 @@
 {
-  "name": "basilikum",
+  "name": "@quantum-spaghetti/basilikum",
   "version": "1.4.2",
   "author": "QuarkMuncher",
   "keywords": [
@@ -33,7 +33,8 @@
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preinstall": "npx only-allow pnpm"
   },
   "eslintConfig": {
     "extends": [
