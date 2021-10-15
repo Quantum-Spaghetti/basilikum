@@ -23,7 +23,13 @@ jobs:
         with:
           version: 6.17.1
           run_install: true
+<<<<<<< HEAD
       - run: pnpm run build
       - run: pnpm publish
+=======
+      - run: npm install
+      - run: npm run build
+      - run: npm publish
+>>>>>>> main
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
