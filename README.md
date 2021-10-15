@@ -25,6 +25,12 @@ npm i basilikum
 yarn add basilikum
 ```
 
+-OR-
+
+```shell
+pnpm add basilikum
+```
+
 May be imported like this for example:
 
 ```js
